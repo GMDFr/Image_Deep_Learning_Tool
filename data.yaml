@@ -1,0 +1,11 @@
+names:
+- crack
+- crazing
+- inclusion
+- patches
+- pitted_surface
+- rolled-in_scale
+- scratches
+nc: 7
+train: C:\Users\Utilisateur\Desktop\PublicationSpringer\IA\Dataset\train\images
+val: C:\Users\Utilisateur\Desktop\PublicationSpringer\IA\Dataset\validation\images

@@ -1,0 +1,13 @@
+path: C:/Users/Utilisateur/Desktop/PublicationSpringer/IA/Dataset
+train: train/images
+val: validation/images
+
+names:
+0 : crack
+1 : crazing
+2 : inclusion
+3 : patches
+4 : pitted_surface
+5 : rolled-in_scale
+6 : scratches
+nc : 7
