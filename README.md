@@ -63,7 +63,7 @@ Transformations appliquées :
 - Changement HSV
 - Perspective
 
-2. 🔁 Conversion XML ➜ YOLO
+### 2. 🔁 Conversion XML ➜ YOLO
 
 python convert_voc_to_text.py
 
@@ -72,7 +72,7 @@ python convert_voc_to_text.py
 - Le dossier YOLO en sortie
 - La liste des classes (classes = [...])
 
-3. 👁️ Visualisation des bounding boxes YOLO
+### 3. 👁️ Visualisation des bounding boxes YOLO
 
 python draw_bbox_check_img_yolo.py
 
