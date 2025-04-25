@@ -59,6 +59,11 @@ Dataset/
 
 ---
 
+## ⚠️ Assurez-vous de bien configurer :
+- Le chemin des dossiers XML en entrée
+- Le dossier YOLO en sortie
+- La liste des classes (classes = [...])
+  
 ## 🔧 Utilisation
 
 ### 1. ⚙️ Augmenter un dataset (PASCAL VOC)
@@ -74,7 +79,7 @@ augment_dataset(
 )
 ```
 
-Transformations appliquées :
+#### Transformations appliquées :
 - Rotation
 - Flip horizontal
 - Translation
@@ -86,10 +91,7 @@ Transformations appliquées :
 
 python convert_voc_to_text.py
 
-## ⚠️ Assurez-vous de bien configurer :
-- Le chemin des dossiers XML en entrée
-- Le dossier YOLO en sortie
-- La liste des classes (classes = [...])
+
 
 ### 3. 👁️ Visualisation des bounding boxes YOLO
 
