@@ -23,12 +23,19 @@ Les outils sont orientés vers un usage pratique dans un contexte de recherche o
 
 
 Dataset/
+
 ├── train/
+
 │   ├── images/
+
 │   ├── labels/ (YOLO format)
+
 │   ├── annotations/ (PASCAL VOC format)
+
 ├── validation/
+
 │   ├── images/
+
 │   ├── labels/
 
 ---
