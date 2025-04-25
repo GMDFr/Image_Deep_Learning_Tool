@@ -10,11 +10,30 @@ Les outils sont orientés vers un usage pratique dans un contexte de recherche o
 
 ## 📦 Contenu du dépôt
 
-| Script                         | Description                                                                 |
+| Fichier                         | Description                                                                 |
 |--------------------------------|-----------------------------------------------------------------------------|
-| `augmentation.py`              | Applique des transformations (rotation, flip, HSV, etc.) sur un dataset (images + annotations VOC) en conservant la cohérence des bounding boxes. |
-| `convert_voc_to_text.py`       | Convertit les annotations **PASCAL VOC (XML)** vers le format **YOLO (txt)**. |
-| `draw_bbox_check_img_yolo.py`  | Affiche et sauvegarde les images avec leurs bounding boxes YOLO pour vérification visuelle. |
+| `augmentation.py`              | Applique des transformations d’augmentation (flip, rotation, HSV, etc.) sur des images + annotations PASCAL VOC. |
+| `classes.csv`                  | Fichier CSV listant les classes utilisées dans le dataset. |
+| `conda_fix.py`                 | Patch de compatibilité pour les environnements conda (ex. : `KMP_DUPLICATE_LIB_OK`). |
+| `convert_voc_to_text.py`       | Convertit les fichiers d'annotation XML (VOC) en format texte YOLO. |
+| `correct_label.py`             | Corrige ou ajuste des erreurs dans les annotations (label/bbox). |
+| `create_yaml.py`               | Génère un fichier `data.yaml` compatible avec YOLOv5/YAML pour l'entraînement. |
+| `data.yaml`                    | Fichier de configuration YAML décrivant le dataset pour l'entraînement YOLO. |
+| `data_test.yaml`              | Variante de `data.yaml` pour tests rapides ou validations. |
+| `draw_bbox_check_csv.py`       | Visualise les bounding boxes définies dans un fichier CSV. |
+| `draw_bbox_check_img_voc.py`   | Dessine les bboxes depuis les annotations PASCAL VOC (.xml). |
+| `draw_bbox_check_img_yolo.py`  | Dessine les bboxes YOLO (.txt) sur les images pour contrôle visuel. |
+| `draw_yolo_architecture.py`    | Génère une visualisation de l’architecture d’un modèle YOLO (version embedded/test). |
+| `generate_annotation_csv.py`   | Regroupe ou convertit les annotations en format CSV. |
+| `inference_test_embedded.py`   | Teste un modèle embarqué (YOLO/SSD) en mode inférence sur un ensemble d’images. |
+| `README.md`                    | Ce fichier. Documentation du projet. |
+| `ssd_evaluate_metrics.py`      | Évalue un modèle SSD à l’aide de métriques type mAP, recall, etc. |
+| `ssd_pt_inspection.py`         | Permet d’inspecter un modèle SSD `.pt` (structure, couches, paramètres). |
+| `test_cuda.py`                 | Script de test pour vérifier si CUDA est bien disponible. |
+| `train_model_ssd.py`           | Script d'entraînement d’un modèle SSD. |
+| `train_model_yolo.py`          | Script d'entraînement d’un modèle YOLO (YOLOv5 ou dérivé). |
+| `xml_transcipt_fix.py`         | Nettoie ou corrige des fichiers XML d’annotations corrompus. |
+| `xml_transcript.py`            | Génère ou convertit des fichiers XML d’annotations à partir de formats bruts. |
 
 ---
 
