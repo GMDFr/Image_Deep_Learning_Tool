@@ -93,6 +93,6 @@ numpy
 
 classes = ['crack', 'crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
 
-###📜 Licence
+📜 Licence
 
 Ce projet est sous licence MIT – voir le fichier LICENSE pour plus d’informations.
